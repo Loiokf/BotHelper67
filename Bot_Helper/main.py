@@ -24,7 +24,7 @@ bot = Bot(token=bot_token)
 dp = Dispatcher(bot, storage=MemoryStorage())
 logger = logging.getLogger(__name__)
 keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
-buttons = ['Помощь', 'Новости', 'Курсы валют', 'Погода по городу', 'Погода по координатам', 'Назад', 'О нас']
+buttons = ['Новости', 'Курсы валют', 'Погода по городу', 'Погода по координатам', 'Помощь', 'Назад', 'О нас']
 photo_BOT = InputFile("bot.png")
 keyboard.add(*buttons)
 
