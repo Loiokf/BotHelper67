@@ -7,16 +7,12 @@ from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 from aiogram import Bot, types
 from config import bot_token
-import sqlite3 as sq
-import datetime
-from datetime import date
-# from Finance import GetInfoAboutRate
 
-from MessageText import HELP_COMMAND, HELLO_TEXT, ABOUT_US
+from text import HELP_COMMAND, HELLO_TEXT, ABOUT_US
 from WeatherCity import GetWeatherCity
 from WeatherCoords import GetWeatherCoords
-from DailyNews import DailyNews1
-from Finance import GetInfoAboutRate
+from News import DailyNews1
+from Money import GetInfoAboutRate
 
 import logging
 
